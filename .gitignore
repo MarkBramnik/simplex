@@ -1,8 +1,24 @@
 # Compiled class file
 *.class
-
 # Log file
 *.log
+# IntelliJ
+.idea
+.idea/**
+out/
+*.iml
+**/*.iml
+*.iws
+**/*.iws
+*.ipr
+**/*.ipr
+*/*.iml
+
+# Maven
+target/
+target/*
+**/target
+**/target/*
 
 # BlueJ files
 *.ctxt
