@@ -1,0 +1,21 @@
+---
+id: "TOO_LARGE_ID"
+errorCode: 1000
+httpStatus: 400
+message: "The Field has value {{value:Integer}} which is more than maximum allowed value of {{maxValue:Integer}}"
+---
+id: "SOMETHING_BAD_HAPPENED"
+errorCode: 1001
+httpStatus: 401
+message: "Something bad happened"
+---
+id: "WRONG_STRING"
+errorCode: 1002
+httpStatus: 500
+message: "The Field {{value:String}} is wrong"
+---
+id: "OUT_OF_RANGE"
+errorCode: 1003
+httpStatus: 400
+message: "The value {{value:Integer}} is out of range: [ {{minValue:Integer}}, {{maxValue:Integer}} ]"
+

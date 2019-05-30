@@ -1,0 +1,9 @@
+---
+  id: "TOO_LARGE_ID"
+  errorCode: 1000
+  httpStatus: 400
+  message: "The Field has value {{value:Integer}} which is more than maximum allowed value of {{maxValue:Integer}}"
+---
+  id: "SOMETHING_BAD_HAPPENED"
+  errorCode: 1001
+  message: "Something bad happened"
