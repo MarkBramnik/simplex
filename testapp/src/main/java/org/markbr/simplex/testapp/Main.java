@@ -1,10 +1,12 @@
 package org.markbr.simplex.testapp;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.SpringApplication;
 
-import org.markbr.simplex.testapp.exceptions.OutOfRangeException;
-
+@SpringBootApplication
 public class Main {
-
+    
     public static void main(String[] args) {
-        throw new OutOfRangeException(50, 70, 100);
+        SpringApplication.run(Main.class, args);
+
     }
 }
