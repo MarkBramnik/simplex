@@ -18,9 +18,4 @@ public class SampleController {
             throw new OutOfRangeException(value, min, max);
         }
     }
-
-    @GetMapping("/ex")
-    public int throwException() {
-        throw new OutOfRangeException(5, 10 , 20);
-    }
 }
