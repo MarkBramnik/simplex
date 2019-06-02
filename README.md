@@ -222,13 +222,14 @@ Since this gets compiled along with the regular code during the maven `compile` 
 
 From the application standpoint the code that can use these exceptions is straightforward:
 
+```java
     import org.markbr.simplex.testapp.exceptions.OutOfRangeException;
     public class Main {
        public static void main(String [] args) {
           throw new OutOfRangeException(100, 20, 30);
        }
     }
-
+```
 
 Upon the change in yml, run `mvn generate-sources` again. If some files were deleted, currently run `mvn clean generate-sources` or remove the `target/generated-sources` folder
 
